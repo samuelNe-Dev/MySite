@@ -28,6 +28,13 @@ p{
   font-size: 1.8rem;
   font-weight: 300;
 }
+
+label{
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
 /*End global*/
 
 /*Start reusable*/
