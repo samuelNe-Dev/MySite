@@ -239,38 +239,22 @@ li{
 }
 /*End about*/
 
-/*Start services*/
+/*Start skills*/
 .my-skills{
   margin-top: 10rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr););
-  grid-gap: 2.5rem;
-  text-align: center;
-}
-.skill{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+
+
 }
 
-.skill h1{
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 2rem -2px 2rem 0;
-}
-
-.icon-container{
+.skill img{
   width: 10rem;
-  height: 10rem;
-  border: 3px solid #e94560;
-  background-color: #16213e;
-  margin-bottom: 2rem;
-  display: flex;
-  transform: rotate(45deg);
+  flex-direction: column;
+  margin-right: 2rem;
 }
-/*End services*/
+/*End skills*/
 
 /*Start portfolio*/
 .portfolio-item{
@@ -420,15 +404,6 @@ input[type="submit"]{
 
   .about-details li{
     margin: 0 2rem;
-  }
-
-  .icon-container{
-    width: 7rem;
-    height: 7rem;
-  }
-
-  .icon-container a{
-    font-size: 4rem;
   }
 }
 

@@ -14,9 +14,4 @@ $(document).ready(function(){
       scrollTop: $($(this).attr('href')).offset().top -100
     }, 2000);
   });
-  
-  AOS.init({
-      easing: 'ease',
-      duration: 1800
-  });
 });
