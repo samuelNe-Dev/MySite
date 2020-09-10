@@ -35,6 +35,12 @@ label{
   margin-top: 15px;
   margin-bottom: 5px;
 }
+
+input{
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-top: 15px;
+}
 /*End global*/
 
 /*Start reusable*/
