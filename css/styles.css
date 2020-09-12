@@ -7,21 +7,21 @@
 
 html{
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body{
   width: 100%;
   height: 100%;
-  background-color: #1a1a2e;
-  color: #e94560;
+  background-color: #16213e;
+  color: #ea5455;
 }
 section{
   padding: 6rem 0;
 }
 a{
   text-decoration: none;
-  color: #e94560;
+  color: #ea5455;
 }
 
 p{
@@ -47,7 +47,7 @@ input{
 .container{
   width: 90%;
   max-width: 120rem;
-  height: 100%;
+  height: 100vh;
   margin: 0 auto;
   position: relative;
 }
@@ -106,14 +106,14 @@ li{
 }
 
 .nav-link{
-  font-family: 'The Historia Demo', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 5rem;
   padding-left: 1rem;
 }
 
 .nav-link:hover,
 .nav-link:focus{
-  background: linear-gradient(to bottom, #58293D, #e94560);
+  background: linear-gradient(to bottom, #58293D, #ea5455);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -142,7 +142,7 @@ li{
 }
 
 .bar{
-  background: linear-gradient(to right, #58293D, #e94560);
+  background: linear-gradient(to right, #58293D, #ea5455);
   width: 100%;
   height: 4px;
 }
@@ -180,8 +180,8 @@ li{
 
 .landing-text h1{
   font-size: 20rem;
-  font-family: sans-serif;
-  background: linear-gradient(to top, #58293D, #e94560);
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to top, #58293D, #ea5455);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
