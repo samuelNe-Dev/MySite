@@ -250,7 +250,6 @@ li{
 .my-skills{
   margin-top: 10rem;
   display: flex;
-  
   justify-content: center;
   align-items: center;
 }
@@ -398,10 +397,23 @@ input[type="submit"]{
     flex-direction: column;
   }
   li{
-    margin: 2rem 0;
+    margin: 2rem;
   }
+
+  .landing-text h1{
+    font-size: 12rem;
+  }
+
+  .landing-text h6{
+    font-size: 2.5rem;
+  }
+  
+  .nav-list{
+    flex-direction: row;
+  }
+  
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .landing-text h1{
     font-size: 10rem;
   }
@@ -415,7 +427,7 @@ input[type="submit"]{
   }
 
   li{
-    margin: 2rem 0;
+    margin: 2rem;
   }
 
   .nav-link{
@@ -426,16 +438,12 @@ input[type="submit"]{
     font-size: 8rem;
   }
 
-  .section-heading h1{
-    font-size: 4rem;
-  }
-
   .about-details .nav-list{
     flex-direction: initial;
   }
 
   .about-details li{
-    margin: 0 2rem;
+    margin: 2rem;
   }
 }
 
@@ -450,7 +458,7 @@ input[type="submit"]{
   }
 
   .landing-text h6{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
 
   .nav-link{
@@ -462,19 +470,17 @@ input[type="submit"]{
   }
 
   .about-heading h1{
-    font-size: 10rem;
+    font-size: 6rem;
   }
 
   .about-heading h6{
-    font-size: 5rem;
+    font-size: 2rem;
   }
 
   .about-heading p{
-    font-size: 4rem;
+    font-size: 1.7rem;
   }
-  .profile-img{
-    margin: 0 0 7rem 0;
-  }
+
 
   .portfolio-item{
     flex-direction: column;
@@ -494,6 +500,14 @@ input[type="submit"]{
     width: 100%;
   }
 
+  .skill img{
+    width: 3.5rem;
+    margin-right: 2.5rem;
+  }
+
+  p{
+    font-size: 1.7rem;
+  }
   
 }
 
