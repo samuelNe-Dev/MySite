@@ -10,6 +10,7 @@ html{
   font-size: 10px;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 body{
@@ -85,7 +86,6 @@ header{
   background-color: #16213e;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
-  transition: all 650ms cubic-bezier(1,0,0,1);
 }
 
 .nav-list{
@@ -130,12 +130,9 @@ li{
   justify-content: space-between;
   cursor: pointer;
   z-index: 1500;
-  transition: transform 650ms ease-out;
 }
 
-.menu-toggler.open{
-  transform: rotate(-45deg);
-}
+
 
 .bar{
   background: linear-gradient(to right, #58293D, #ea5455);
@@ -146,23 +143,14 @@ li{
 .bar.half{
   width: 50%;
 }
-.bar.start{
-  transform-origin: right;
-  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
-}
 
-.open .bar.start{
-  transform: rotate(-90deg) translateX(.8rem);
-}
+
+
 .bar.end{
   align-self: flex-end;
-  transform-origin: left;
-  transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 
-.open .bar.end{
-  transform: rotate(-90deg) translateX(-.8rem);
-}
+
 
 .landing-text{
   position: absolute;
